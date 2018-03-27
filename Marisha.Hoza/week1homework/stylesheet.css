@@ -1,0 +1,102 @@
+
+body {
+    background-color: #bac3d3;
+}
+
+
+/* ------------------- General  ------------------ */
+
+
+h1 {
+    margin:1em
+}
+
+h2 {
+    display: inline-block;
+    margin-bottom: 0em;
+}
+
+div p {
+    padding: 3%;
+}
+
+div div {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    height: 10em;
+    margin: 1%;
+    padding: 0em 2%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    margin:auto;
+}
+
+li {
+    margin-bottom: 5%;
+}
+
+/* ------------------- Classes  ------------------ */
+
+.content {
+    background-color: #949caa;
+    min-height: 12em;
+    overflow: scroll;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    border-radius: 20px;
+}
+
+.reasons {
+    height: 10em;
+    margin: 1%;
+    float: left;
+    width: 20%;
+}
+
+.imagebox {
+    height:10em;
+    float:left;
+    width:15%;
+    margin: 1%;
+    text-align: center;
+    padding: 1%;
+    
+}
+
+/* ------------------- IDs  ------------------ */
+
+#header {
+    z-index: 1;
+    position: relative;
+    background-color: #cc80bf;
+    height: 6em;
+    width: 101%;
+    margin: -3em 0em 1em -1em;
+
+    text-align:center;
+    
+}
+
+#sidebar {
+    background-color: #ceb1c8;
+    position: relative;
+    float: left;
+    height: 45em;
+    width: 17%;
+    margin: -3em 1em -1em -1em;
+}
+
+#title {
+    font-size: 3em;
+    color: white;
+    font-family: monospace;
+
+    padding: .5em;
+}
