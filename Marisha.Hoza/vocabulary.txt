@@ -2,10 +2,10 @@ Vocabulary homework ------- Marisha Hoza
 
 
 Week 1:
-    1.
-    2.
-    3.
-    4.
-    5.
-    6.
-    7.
+    1. IDD/IDE = Integrated development environment
+    2. DOM = document object model
+    3. HTML = Hyper-text markup language
+    4. CSS = Cascading style sheets
+    5. Terminal/Command line = A text-based interface to the system
+    6. Shell = The part of your operating system that defines how the terminal will behave/look
+    7. Bash = Bourne Again SHell
