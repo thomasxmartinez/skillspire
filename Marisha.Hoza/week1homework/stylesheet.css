@@ -30,7 +30,7 @@ div p {
 
 
 div div {
-    display: inline-block;
+    display: block;
     float: left;
     width: 45%;
     height: 10em;
@@ -95,7 +95,7 @@ li {
     height: 6em;
     width: 101%;
     margin: -3em 0em 1em -1em;
-    
+
     text-align:center;
     
 }
