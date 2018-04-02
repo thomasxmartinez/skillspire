@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Class and ID</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+	<!-- This is THE correct way to add CSS to an HTML file. Create a new file called styles.css and create a link to that CSS file using the <link> element.  The <link> element should be inside your <head> element. You can find my CSS file called styles.css inside of the folder called my-css-file -->
+
+	<h1>Classes, IDs, And The Right Way to Use CSS</h1>
+
+	<!-- The "class" attribute is used to style multiple elements -->
+	<p class="green">This paragraph will be green</p>
+	<p class="green">This paragraph will be green</p>
+
+	<ul class="green">
+		<li>This table</li>
+		<li>is green</li>
+		<li>like money</li>
+	</ul>
+
+	<!-- The "id" attribute is used to style one specific element -->
+	<p id="blue">This paragraph will be blue</p>
+
+	<ul id="centered">
+		<li>This list</li>
+		<li>will be</li>
+		<li>centered</li>
+	</ul>
+
+  <!-- We can use CSS to align elements. View the styles.css file inside the my-css-file folder -->
+
+	<h1>Aligning Text</h1>
+
+	<p>Below is a list of software developer twitter handles</p>
+
+	<ol>
+		<li id="left">@TechNoahLogy</li>
+		<li id="center">@btholt</li>
+		<li id="right">@ashley_doyal</li>
+	</ol>
+
+  <!-- The <table> element is split in to a head and body similar to the entire HTML page. The <tr> tags are short for "Table Row".  Each <tr> inside the table creates a new row. Each <td> creates a column.-->
+
+  	<h1>Create a Table</h1>
+
+  	<table border="1em"> <!-- The border attribute creates a border around the table and cells-->
+
+  		<thead>
+  			<tr>
+  				<th colspan="2">JavaScript Frameworks</th> <!-- The colspan attribute is short for "column span". It spans as many columns as you specity. Here I've specified 2 columns -->
+  			</tr>
+  			<tr>
+  				<th>Names</th>
+  				<th>does this class cover any of it?</th>
+  			</tr>
+  		</thead>
+
+  		<tbody>
+  			<tr>
+  				<td>Vue</td>
+  				<td>No</td>
+  			</tr>
+  			<tr>
+  				<td>React</td>
+  				<td>Yes</td>
+  			</tr>
+  			<tr>
+  				<td>Angular</td>
+  				<td>no</td>
+  			</tr>
+  			<tr>
+  				<td>Node</td>
+  				<td>yes</td>
+  			</tr>
+  		</tbody>
+
+  	</table>
+</body>
+<!-- HTML has several containers that you can place elements inside of. They all have the same effect, but the different labels makes readability easier.  Here are the containers we discussed in class:
+
+    - nav
+    - header
+    - footer
+    - section
+    - article
+    - aside
+    - div
+    - footer
+
+  Make sure you use the appropriate container. For instance, your header should be placed inside of the <header> element. A navigation menu should be placed inside the <nav> container. Advertisements or extra info on your site should be placed in an <aside>.
+   -->
+
+  <h1>Sample Resume for Waka Flocka Flame</h1>
+
+  <header>
+    <nav>
+      <ol>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Experiences</li>
+      </ol>
+    </nav>
+    <img src="http://the18.com/sites/default/files/styles/feature_image_with_focal/public/feature-images/20170118-the18-image-waka-flocka-flame.jpg?itok=0NSGvynb">
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>CEO of the Ferrari Boyz, wordsmith, and philanthropist. Enjoys turning up.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>rapping</li>
+      <li>adlibs</li>
+      <li>genius intellect</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li>CEO | Ferrari Boyz</li>
+      <li>BA in dropping bangers | Ball So Hard University</li>
+    </ul>
+  </section>
+  JavaScript lesson structure:
+
+-In order to understand web development, it is essential to understand the basic principles of programming.
+
+
+What is a program?
+
+-"A list of computer instructions that tell a computer what to do."
+
+
+What is JavaScript?
+
+- The language was introduced in 1995 and used to create programs in Netscape (Netscape was a browser similar to Google Chrome and Internet Explorer).
+
+- Not to be confused with Java.  JavaScript has almost nothing to do with Java except that they're both programming languages.
+
+
+JS has 6 data types
+	1) numbers
+	2) strings
+	3) Booleans
+	4) objects
+	5) functions
+	6) undefined
+
+
+Technical career paths
+
+SDET - (Software Design Engineer in Test) write code to test features.They have to be
+       good at both coding and testing.
+
+SDE - Software Design Engineer
+
+Product (and Program) Management - these roles vary. Generally are at least partially
+                                   client facing. Sometimes also involve coding.
+
+
+</html>
+
+
+<!-- Use classes and IDs to style your resume page -->
+<!-- Go back to your profile that you created and align items. Use each of the 3 alignments at least once. -->
+<!-- Go to http://www.imdb.com/chart/top?ref_=nv_mv_250_6
+	Create a table with 3 rows about the top 3 movies. The table should contain 3 columns containing the following: movie name, year, rating.
+-->
+<!-- Update your profile with the correct containers
