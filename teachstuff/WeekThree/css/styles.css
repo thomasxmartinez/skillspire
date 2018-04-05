@@ -1,0 +1,35 @@
+/* Styles for 16-text-align.html */
+#left {
+  text-align: left;
+}
+
+#center {
+  text-align: center;
+}
+
+#right {
+  text-align: right;
+}
+
+/* Styles for 17-tables.html */
+table {
+  text-align: center; /* Notice how this doesn't align the entire table -- just the text within each cell. */
+  margin: auto; /* This centers the table by telling the browser to set equal margins on each side of the element */
+}
+
+nav {
+  display: inline-block;
+}
+
+/* Styles for 07-class-and-ids.html */
+.green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}
+
+#centered {
+  text-align: center;
+}
