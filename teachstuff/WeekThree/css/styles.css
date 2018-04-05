@@ -33,3 +33,20 @@ nav {
 #centered {
   text-align: center;
 }
+
+#bucket {
+  color: blue;
+}
+
+.rebeccapurp {
+  background-color: rebeccapurple;
+}
+
+#dosomestuff {
+  text-decoration-line: line-through;
+}
+
+section {
+  border-style: solid;
+  border-width: 1em;
+}
