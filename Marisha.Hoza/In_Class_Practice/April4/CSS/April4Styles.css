@@ -1,0 +1,44 @@
+/* I'm the comment format */
+
+
+
+
+/* ..................... Elements ...................... */
+
+p {
+    color: midnightblue;
+    font-family: Impact;
+} 
+
+
+
+
+/* ...................... Classes ....................... */
+
+/* colors */
+.papayawhip {
+    background-color: papayawhip;
+}
+
+
+/* alignment */
+
+.centered {
+    text-align: center;
+}
+
+
+
+
+
+/* ........................ IDs .......................... */
+
+#large {
+    font-family: Impact;
+    font-size: 4em;
+}
+
+#sneeze {
+    text-decoration-line: line-through;
+
+}
