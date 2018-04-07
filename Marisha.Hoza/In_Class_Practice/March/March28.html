@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 3.28</title>
+  </head>
+  <body>
+   <h1>stuff</h1>
+   <!-- examples of ordered, unordered, and combined lists -->
+   <p>
+       Normal text
+       <ul>
+           <li>I'm the start of a fancy list</li>
+           <ol>
+               <li>I have some</li>
+               <li>ordered items</li>
+               <ol>
+                   <li>I'm even farther in!</li>
+               </ol>
+           </ol>
+           <li>How cool is that?</li>
+           <ul>
+               <li>but I don't have a number</li>
+               <li>and neither do I!</li>
+           </ul>
+           <li>pretty cool, right?</li>
+       </ul>
+       <ol>
+           <li>I'm just</li>
+           <li>a regular old</li>
+           <li>ordered list</li>
+       </ol>
+       <ul>
+           <li>I'm a regular</li>
+           <li>unordered one!</li>
+       </ul>
+   </p>
+   <p>I'm some more boring normal paragraph text. </p>
+    
+   <!-- examples of linking and images
+
+      alt text is good if your image doesn't load, but it also helps boost your page
+      because search engines pay attention to the alt text -->
+
+   <p>
+       <a href="https://www.etsy.com/shop/spicyeskimoart">Check out my etsy shop!</a>
+       <br>
+       <br>
+       <a href="./SpicyEskimo.PNG">
+           <!-- see size options on this one for one way to make the image re-size with the browser -->
+           <img src="https://img0.etsystatic.com/181/0/11989950/isla_280x280.25634960_r10b7hcb.jpg" height="20%" width="20%" alt="spicy eskimo"/>
+       </a>
+       <br>
+       <br>
+       <img src="https://img.ifcdn.com/images/2a4971f434624e9b323f7328ac1b8e8d1d0464184f16126ce67eb0e00963d56d_1.jpg" height="30%" width="40%" alt="Doggo with a really long snoot"/>
+   </p>
+
+   <!-- examples of tables  IMPORTANT -->
+
+   <table >
+       <caption>I'm about to rate your pets!</caption>
+       <thead>
+           <tr>
+               <th> Type of pet </th>
+               <th> Coolness Factor </th>
+               <th> Meme </th>
+               <th> Emoji </th>
+               <th> Example for a good name </th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td>Cat</td>
+               <td>8.2</td>
+               <td>I can haz cheezburger?</td>
+               <td> :3 </td>
+               <td> Stormus Enormous </td>
+           </tr>
+           <tr>
+               <td>Dog</td>
+               <td>7.5</td>
+               <td>Boop that snoot!</td>
+               <td> /-.-\ </td>
+               <td> Spumoni </td>
+           </tr>
+           <tr>
+               <td>Horse</td>
+               <td>9.5</td>
+               <td>Watch me neigh-neigh.</td>
+               <td> <\__~ <br>../\../\.. </td>
+               <td> Sir Restless the Third of Worcestershire</td>
+           </tr>
+           <tr>
+               <td>Goldfish</td>
+               <td>3</td>
+               <td colspan="2">Blub! <>< <>< <>< <>< <><</td>
+               <td> The Goldfather <br> (adds 3 Coolness Factor points) </td>
+           </tr>
+       </tbody>
+   </table>
+   <br>
+   <br>
+   <br>
+
+   <!-- next is examples of forms (this one is new!!) -->
+
+   <!-- this is about how forms work... to be added -->
+
+   <form>
+       <label>Name:</label>
+       <input type="text" id="users-name" maxlength="30" required>
+       <label>Password:</label>
+       <input type="password" id="users-password" maxlength="50" required>
+       <button type="submit">Enter</button>
+   </form>
+
+   <br>
+   <br>
+
+   <form>
+       <p>Please let us know how hungry you are right now:</p>
+       <textarea id="hunger-message" cols="40" rows="5"></textarea> 
+   </form>
+
+   <br>
+   <br>
+
+   <form>
+       <p>Which type of pet do you think is coolest?</p>
+       <input type="radio" name="pet" value="Cats"> Cats
+       <input type="radio" name="pet" value="Dogs"> Dogs
+       <input type="radio" name="pet" value="Horses"> Horses
+       <input type="radio" name="pet" value="Goldfish"> Goldfish
+       <input type="radio" name="pet" value="Other">Other
+   </form>
+
+   <br>
+   <br>
+
+   <form>
+       <p> Select your current pets </p>
+       <input type="checkbox" value="Cat">Cat
+       <input type="checkbox" value="Dog">Dog
+       <input type="checkbox" value="Horse">Horse
+       <input type="checkbox" value="Fish">Fish
+       <input type="checkbox" value="Other">Other
+   </form>
+
+   <br>
+   <br>
+
+   <form>
+       <p> Favorite kind of ice cream?</p>
+       <select>
+           <option>Chocolate</option>
+           <option>Vanilla</option>
+           <option>Spumoni</option>
+           <option>Other</option>
+       </select>
+   </form>
+
+
+    <!--..............This is the start of saturday March 31 class.. 
+        but secretly it starts up at the forms, I just got ahead of things ..............-->
+
+    <br>
+    <br>
+
+    <audio controls autoplay loop>
+        <source src="./ClarinetPolkaYodel.m4a" type="audio/mpeg"> Audio element not supported by your browser.
+    </audio>
+
+    <br>
+    <iframe width="470" height="350" src="https://i.imgur.com/pRup3pN.mp4"></iframe>
+
+
+
+    <video controls> <!-- this is not working!! :( -->
+        <source src="https://www.youtube.com/embed/VF9-sEbqDvU?ecver=2" type="video/mp4">
+    </video>
+
+    <!-- this is working :) -->
+    <iframe src="https://www.youtube.com/embed/VF9-sEbqDvU?ecver=2" height="300" width="400"></iframe>
+
+
+
+    <!-- Whiteboard table
+    <table>
+        <caption>Whiteboard Table</caption>
+        <thead>
+            <tr>
+                <th>Song</th>
+                <th>Album</th>
+                <th>Artist</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ice Ice Baby</td>
+                <td>Album?</td>
+                <td>Vanilla Ice</td>
+                <td>Rock/pop? lol wrong!</td>
+            </tr>
+        </tbody>
+    </table>
+    -->
+
+
+
+
+  </body>
+</html>
