@@ -9,3 +9,18 @@ Week 1:
     5. Terminal/Command line = A text-based interface to the system
     6. Shell = The part of your operating system that defines how the terminal will behave/look
     7. Bash = Bourne Again SHell
+
+
+Week 2:
+    1. DRY = Don't repeat yourself
+    2. href = Hyper-text reference
+    3. User story = the scenario that the hypothetical "user" wants to see on the page -
+        you have to build it out. Can be detailed or vague.
+    4. Alt text = text that displays when the browser can't load the element or for impared users.
+        This text is also a great way to get found in search results.
+    5. HTML containers = The commonly used sections that compose your HTML file.
+        Containers help with readability and organization
+    6. Attributes = the extra information inside an HTML element that povides additional data.
+    7. CSS selectors: Element/class/ID = the selector determining which bits of the HTML page
+        will be styled. Element seletcs all of that particular type of element, Class (.) selects all elements
+        with the that class attribute, and ID (#) seletcs only the particular element with that ID listed.
