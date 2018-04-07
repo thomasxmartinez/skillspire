@@ -1,0 +1,94 @@
+/* I'm the comment format */
+
+
+
+
+/* ..................... Elements ...................... */
+
+p {
+    color: midnightblue;
+    font-family: Impact;
+} 
+
+
+
+
+/* ...................... Classes ....................... */
+
+/* colors */
+.papayawhip {
+    background-color: papayawhip;
+}
+
+.ghostwhite {
+    color: ghostwhite;
+}
+
+
+/* alignment */
+
+.left {
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+    margin: auto;
+}
+
+.right {
+    text-align: right;
+}
+
+.normalpadding {
+    padding: 0em 2em;
+}
+
+
+/* sizes */
+.wide {
+    width: 80%;
+    height: auto;
+}
+
+.medium {
+    width: 50%;
+    height: auto;
+}
+
+/* other */
+
+.plainborder {
+    border: 3px solid black;
+}
+
+.bold {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* ........................ IDs .......................... */
+
+#large {
+    font-family: Impact;
+    font-size: 4em;
+}
+
+#sneeze {
+    text-decoration-line: line-through;
+
+}
+
+
+#section1 {
+    text-align: center;
+    height: auto;
+    margin: 2em auto;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 50%;
+    background-color: darkslategrey;
+
+}
