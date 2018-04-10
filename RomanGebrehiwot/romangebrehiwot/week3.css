@@ -1,0 +1,15 @@
+p {color:Red; }
+.green {background-color: green;}
+#blue {color:blue;}
+#centered {text-align: center;}
+#center {text-align: center;}
+#left {text-align: left;}
+#right {text-align: right;}
+#dosomestuff {text-decoration-line: line-through}
+table {
+    text-align: center; /* Notice how this doesn't align the entire table -- just the text within each cell. */
+    margin: auto; /* This centers the table by telling the browser to set equal margins on each side of the element */
+  }
+  
+  #line {text-align: right;}
+  #border {border-block-start-width: 10cm}
