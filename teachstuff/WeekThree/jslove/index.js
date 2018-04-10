@@ -55,18 +55,18 @@ Math.floor(Math.random() * 3);
 // Strings are another data type used to identify text. They can be created with single
 // or double quotes.
 
-'My name is Thomas'
+'My name is Kobe'
 
 "Her name is Cardi B"
 
-"His name's Quav0"
+"His name's Quavo"
 
 // The \ is an escape character. It can be used for actions such as adding an apostrophe
 // or creating new lines.
 
 'His name\'s Cardi'
 
-'My name\'s Thomas. \nHis name\'s Quavo.'
+'My name\'s Kobe. \nHis name\'s Quavo.'
 
 // Concatenation can be used for combining strings
 
@@ -118,14 +118,14 @@ var x;
         3 > 2
         //true
         
-        'sherlock' > 'batman' //compares the lexical order of the strings.
+        'Tiger Woods' > 'Phil Mickelson' //compares the lexical order of the strings.
         
         //true
         
-        'harry potter' > 'hermione'
+        'Cardi B' > 'Quavo'
         //false
         
-        'harry potter'.length > 'hermione'.length //checks if the length of the value on left is greater
+        'Cardi B'.length > 'Quavo'.length //checks if the length of the value on left is greater
                                                   //than the value on the right
         //true
         
@@ -137,15 +137,15 @@ var x;
 // When an operator is applied to unexpected data types, JavaScript will sometimes automatically
 // convert one of the data types. This is known as "type coercion".
 
-'Farhad' + 5 // A string plus a number will result in converting the number to a string and 
+'Kobe' + 5 // A string plus a number will result in converting the number to a string and 
              // concatonating it.
-// 'Farhad5'
+// 'Kobe5'
 
 '5' - 1 // A string number subtracted by a number will conver the string to a number and then
 		// subtract the two numbers.
 // 4
 
-'Farhad' * 5 // Notice that type coercion doesn't work for everything. In some cases JS doesn't
+'Kobe' * 5 // Notice that type coercion doesn't work for everything. In some cases JS doesn't
 			 // know how to make sense of a statement.
 // NaN
 
