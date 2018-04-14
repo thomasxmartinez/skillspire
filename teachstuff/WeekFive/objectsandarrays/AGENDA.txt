@@ -1,0 +1,14 @@
+AGENDA
+
+- Test
+- Thomas teach for 1 hour 
+	- Scope review
+	- IIFEs
+	- Objects
+	- This
+- Arrays
+- Loops
+	- while
+	- do-while
+	- for
+
