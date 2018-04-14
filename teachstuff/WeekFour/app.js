@@ -14,7 +14,7 @@
 //  >=     -Checks if the value on left is greater than or equal to value on right
 
 
-console.log(3 > 2)  //true
+console.log(3 > 2) //true
 
 // Checks if Unicode value of the first letter is great than the value of the first 
 // letter on the right. The Unicode standard assigns a number to every character. 
@@ -22,21 +22,20 @@ console.log(3 > 2)  //true
 
 console.log('Hulkamania' > 'Undertaker'); //true
 
-console.log('Kobe Bryant' > 'Lebron');  //false
+console.log('Kobe Bryant' > 'Lebron'); //false
 
 
 // We can also use these comparison operators to compare the length of one string
 // with another string.
 
-console.log('Kobe Bryant'.length > 'Lebron'.length);  //true
+console.log('Kobe Bryant'.length > 'Lebron'.length); //true
 
 
 // NaN is the result of a statement that doesn't make sense. The reason this is 
 // false is that the result of one nonsensical statement isn't equal to the result 
 // of another.
-console.log(NaN == NaN)  //false
+console.log(NaN == NaN) //false
 
-'use strict';
 //    Logical operators can be used with boolean values (or with using comparison 
 //	  operators to create boolean values)
 /*
@@ -54,18 +53,18 @@ console.log(NaN == NaN)  //false
 
 // && returns true only if BOTH values on left and right equate to true
 
-console.log((true) && (true));    //true
-console.log((true) && (false));   //false
-console.log((true) && (!false));  //true
+console.log((true) && (true)); //true
+console.log((true) && (false)); //false
+console.log((true) && (!false)); //true
 
 
 // || returns true if EITHER of the values on the left or right are true.
-console.log((true) || (false));   //true
-console.log((false) || (false));  //false
-console.log((true) || (true));    //true
+console.log((true) || (false)); //true
+console.log((false) || (false)); //false
+console.log((true) || (true)); //true
 
-console.log((2 > 1) && (4 === 4));  // This will evaluate as true since both sides are true.
-console.log((true) && !(3 > 5));    // This will evaluate to false since the value on the
+console.log((2 > 1) && (4 === 4)); // This will evaluate as true since both sides are true.
+console.log((true) && !(3 > 5)); // This will evaluate to false since the value on the
 // right is false.
 
 
@@ -78,7 +77,6 @@ true && false // false
 true || false // true
 false || false // false
 
-'use strict';
 // Variables are used to save data by assigning values to a variable. Variables must begin with
 // a letter and cannot contain special characters.
 
@@ -88,7 +86,8 @@ var firstname1;
 // The following line declares a variable and defines it by assigning a value.
 var firstname2 = 'Marshawn';
 // The following line declares and assigns values to multiple variables
-var firstname = 'Mac', lastname = 'Dre';
+var firstname = 'Mac',
+    lastname = 'Dre';
 // You can also use variables to assign values to a variable
 var username = firstname + ' ' + lastname;
 
@@ -126,7 +125,7 @@ console.log('New rectangleArea: ' + rectangleArea);
 
 console.log('BIG BALLER BRAND'); // This will simply print whatever is in parentheses 
 
-alert('Only big ballars allowed'); // This will alert the user with 
+alert('Only big ballers allowed'); // This will alert the user with 
 // a pop-up
 
 confirm('Are you James Harden?'); // This function will ask the user to confirm something by creating
@@ -140,7 +139,6 @@ prompt('Enter your age.'); // This function creates a pop-up asking the user for
 
 var username = prompt('Enter your name.');
 
-'use strict';
 // Conditional execution allows certain code statements to be executed only under certain conditions.
 
 
@@ -178,15 +176,12 @@ console.log(userAge);
 
 if (userAge < 13) {
     alert('You are too young to play this game.');
-}
-else if (userAge >= 13) {
+} else if (userAge >= 13) {
     alert('Welcome to the game!');
-}
-else {
+} else {
     alert('Your input must be a number');
 };
 
-'use strict';
 /*
 - Generate a random number from 0-3
 - User to guess that number
@@ -269,7 +264,5 @@ timesTwo(5);
 //    Log the area to the console. You'll need to google the equation.
 
 
-
-
-
-
+let irvineIsAGiantBagOfPotatoes = prompt("Do i have a punchable face?");
+document.body.innerHTML = irvineIsAGiantBagOfPotatoes;
