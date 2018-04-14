@@ -1,0 +1,36 @@
+p {
+    color: red; 
+    background-color: black;
+}
+
+#styleImage {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 2px 4px 6px 8px;
+    border: 3px solid rgb(219, 16, 16); 
+}
+
+#image {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 2px 0px 0px 0px;
+    border: 3px solid rgb(79, 231, 18); 
+}
+
+th {
+    width: 2em;
+    height: 2em;
+    margin: 2em;
+    padding: 2px 0px 0px 0px;
+    border: 3px solid rgba(4, 10, 2, 0.89); 
+}
+
+td{
+  width: auto;
+    height: auto;
+    margin: auto;
+    padding: 2px 0px 0px 0px;
+    border: 3px solid rgb(45, 221, 10); 
+}
