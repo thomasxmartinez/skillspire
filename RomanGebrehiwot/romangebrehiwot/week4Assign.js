@@ -4,6 +4,7 @@ function areaClass(lenth, height) {
      
   }
   areaClass(3,4);
+<<<<<<< HEAD
 /*
     var areaClass = document.getElementById('area-class')
     areaClass.addEventListener('submit', function(){
@@ -33,3 +34,5 @@ lnameInput.value = '';
 }
 
 })*/
+=======
+>>>>>>> romang
