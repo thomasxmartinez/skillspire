@@ -1,0 +1,50 @@
+
+body {
+    background-image: url(./SeeingSpots.jpg);
+}
+
+
+table, th, td {
+    border: 2px solid darkred;
+    padding: 1% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ th, td {
+     background: rgb(245, 245, 245, 0.25);
+ }
+
+
+.circle {
+    border-radius: 100%;
+    width: 555px;
+    height: 555px;
+    padding: 0%;
+}
+
+.red {
+    background-color: rgb(182, 104, 82, 0.5);
+    margin: -60px 16px;
+}
+
+.blue {
+    background-color: rgb(90, 150, 125, 0.5);
+    margin: -180px 320px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 30%;
+    width: 70%;
+}
+
+.thickborder {
+    border: 3px solid darkred;
+    padding: 1%
+}
+
+.bigtext {
+    font-size: 3em;
+}
