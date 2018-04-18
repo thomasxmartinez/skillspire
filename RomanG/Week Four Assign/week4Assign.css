@@ -1,0 +1,12 @@
+h1 {color:Red; }
+
+p {color:green; }
+table {color:green;
+    text-align: center;
+    margin: auto;
+    border: black;
+    border-width: 10px;
+    background-color: orange;
+    border-style: solid;   }
+
+body {background-color: powderblue; }
