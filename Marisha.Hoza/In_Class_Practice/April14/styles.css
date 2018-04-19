@@ -1,0 +1,21 @@
+html {
+    background-color: paleturquoise;
+}
+
+body {
+    text-align: center;
+    padding: 5% 0%;
+    font-size: 2em;
+    
+}
+
+
+.cat { 
+    width: 30%; 
+    margin: auto;
+}
+
+.cat img {
+    width:100%;
+}
+
