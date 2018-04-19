@@ -45,6 +45,35 @@ var contactList = ['Magic Johnson', 'Kareem', 'Kobe', 'Shaq', 'D Fish'];
 var count = 0;
 
 while (count < contactList.length) {
-	document.write('<p>' + contactList[count] + '</p>');
+	document.write('<li>' + contactList[count] + '</li>');
 	count = count + 1;
+}
+
+let coun = 0
+
+while (coun <= 1) {
+	alert(coun)
+	coun++
+}
+
+let list = ['red', 'blue', 'yellow', 'brown', 'green'];
+
+while (coun < list.length) {
+	document.write('<p>' + list[coun] + '<p>');
+	coun++
+}
+
+var cou = 0;
+
+while (cou <= 5) {
+	alert(cou);
+	cou = cou + 1;
+}
+
+var contactList = ['Magic Johnson', 'Kareem', 'Kobe', 'Shaq', 'D Fish'];
+var cou = 0;
+
+while (cou < contactList.length) {
+	document.write('<li>' + contactList[cou] + '</li>');
+	cou = cou + 1;
 }

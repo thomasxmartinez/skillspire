@@ -14,19 +14,19 @@
 
 // The person object has 3 properties
 var person = {
-	name: 'Marshawn Lynch',
-	heightInInches: 71,
-	occupation: 'American football running back'
+    name: 'Marshawn Lynch',
+    heightInInches: 71,
+    occupation: 'American football running back'
 }
 
 
 // Objects can also have functions attached to them. Functions attached to an object are called methods.
 var shelter = {
-	type: 'dog',
-	location: 'bellevue',
-	typeCall: function(){
-		return 'the type of shelter is  ' + this.type; // in this.type, "this" refers to the variable shelter
-	}
+    type: 'dog',
+    location: 'bellevue',
+    typeCall: function() {
+        return 'the type of shelter is  ' + this.type; // in this.type, "this" refers to the variable shelter
+    }
 };
 
 
