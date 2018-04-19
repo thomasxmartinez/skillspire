@@ -14,7 +14,7 @@ projector.cost = 5.99;
 projector.available = true
 
 
-//class 4.18
+//class 4.18 .
 
 /*let sample = 'cats';
 function rando(word){
