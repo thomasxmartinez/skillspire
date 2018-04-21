@@ -26,7 +26,7 @@ Week 2:
         with the that class attribute, and ID (#) seletcs only the particular element with that ID listed.
 
 Week 3:
-    1. NAN = Not a number
+    1. NAN = Not a Number
     2. SDET = Software Design Engineer in Test
     3. SDE = Software Design Engineer
     4. Program = A list of computer instructions that tell a computer what to do.
@@ -37,10 +37,10 @@ Week 3:
 
 
 Week 4:
-    1. 
-    2. 
-    3. 
-    4. 
-    5. 
-    6. 
-    7. 
+    1. js argument = the input, eg the 9 in multiply(9)
+    2. js parameter = variables in a function name that recieve an input
+    3. js function declaration = a function that is bound to an identifier or name
+    4. js modulous operator = %, finds the remainder
+    5. js operators = the symbols used to assign values, compare values, perform arithmetic operations, etc.
+    6. lexical order = the numerical value assigned to strings is based off of the first letter. This is the mathematical term for alphabetical order. 
+    7. Boolean = true and false values
