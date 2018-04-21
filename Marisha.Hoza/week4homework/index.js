@@ -33,13 +33,23 @@ calc (4,27,88);
 
 
 
-/* Prompt: Declare two variables in a function AND 
-AND
-Create a function using an if/else statement properly */
+// Prompt: Declare two variables in a function 
+//Declare two variables (var) in a function that compares the length of two strings
+
+function test(one, two) {
+  let first = one.length;
+  let second = two.length;
+  if (first > second) return one + " is longer than " + two;
+  else if (first === second) return one + " is the same length as " + two;
+  else if (first < second) return one + " is shorter than " + two;
+  else return "You managed to break this. Try again.";
+}
+
+test("cake", "frosting");
 
 
-// okay I clearly got carried away with this one so I'm using it for both the 'two variables' 
-//and the if else assignment. Hopefully it's cool that I used far more than two variables.
+//Create a function using an if/else statement properly
+
 
 
 function howFar(planet){
