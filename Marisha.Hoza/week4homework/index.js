@@ -36,21 +36,39 @@ calc (4,27,88);
 // Prompt: Declare two variables in a function 
 //Declare two variables (var) in a function that compares the length of two strings
 
-function test(one, two) {
+function test (one,two){
   let first = one.length;
   let second = two.length;
-  if (first > second) return one + " is longer than " + two;
-  else if (first === second) return one + " is the same length as " + two;
-  else if (first < second) return one + " is shorter than " + two;
-  else return "You managed to break this. Try again.";
+  if (first>second) return one + ' is longer than ' + two;
+  else if (first===second) return one + ' is the same length as ' + two;
+  else if (first<second) return one + ' is shorter than ' + two;
+  else return 'You managed to break this. Try again.';
 }
 
-test("cake", "frosting");
+test('cake','frosting');
+
+
+
+
 
 
 //Create a function using an if/else statement properly
+//Create a function that utilizes and if/else statement. If userAge < 67  "something" else "something"
+
+function oldFart (age) {
+  if (age < 67) return 'Good for you, ya whipper snapper!';
+  else if (age >= 67) return 'Sorry, but you are an old fart';
+  else return 'please enter your age as a number';
+}
+
+oldFart (24);
 
 
+
+
+
+
+//bonus function:
 
 function howFar(planet){
   let mercury = 36; //distance is in million miles
