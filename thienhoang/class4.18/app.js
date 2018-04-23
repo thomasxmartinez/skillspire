@@ -59,3 +59,54 @@ while (count < list.length) {
     document.write('<p>' + list[count] + '<p>' );
     count ++
 }
+
+/* 4/21 
+
+function even_or_odd (num){
+  let remainder = num % 2;
+  
+  if (remainder === 0 ){
+    return ('this is an even number')
+  }else {
+    return ('this is an odd number')
+  }}
+  
+  
+even_or_odd (23)
+
+
+
+
+let str = "washington";
+//str = str.slice(1, -1);
+//str = str.slice(1);
+str = str.slice(1, -1);
+console.log(str);
+
+function char (str){
+ let btr = str.slice(1, str.length -1);
+  return (btr)
+}
+char("washington is the best")
+
+
+
+
+function mathTest (operator, value1, value2){
+  
+  if (operator === '+'){
+    return (value2 + value1);
+  }else if (operator === '/'){
+    return(value1 / value2);
+  }else if (operator === '*'){
+    return (value1 * value2);
+  }else if (operator === '-'){
+    return(value1 - value2);
+  }else {
+    return (" your operator was not one of the following +, - , *, /");
+  }
+}
+
+mathTest('+', 10,10);
+
+*/
