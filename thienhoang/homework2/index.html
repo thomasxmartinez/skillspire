@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>HW2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <!--first task in HW Create index.html that has inline styles-->
+    <p style="color: red; background-color: black">first task inline css </p>
 <p style="font-size: 4em; color:yellow; background-color: teal;">Hello World</p>
 
     <!--Second task in HW Create a table in index.html-->
@@ -44,9 +45,54 @@
 </table>
 
     <!--Third Create a form that includes radio buttons, text inputs and selectors-->
+    <p style="color: red; background-color: black">third task forms </p>
 
-    <!--Forth tast in HW 
+<form>
+  <label>Enter someting</label>
+  <input type="text" id="something" maxlength="10" required>
+  <label>repeat</label>
+  <input type="password" id="repeat-something" maxlength="30">
+  <button type="submit">Enter</button>
+</form>
+<form>
+    <p>Enter a phrase</p>
+    <textarea id="status" cols="10" rows="10"></textarea>
+</form>
+
+
+<form>
+  <p>select favorite artist</p>
+  <input type="radio" name="artist" value="whatever" style=" fill: red"> one republic
+  <input type="radio"name="artist" value="value"> nickelback
+  <input type="radio" name="artist" value="whatever"> savage garden
+</form>
+
+<form>
+  <input type="checkbox" value="js">whatever
+  <input type="checkbox" value="python">
+  <input type="checkbox" value="css">yeah baby
+</form>
+
+<form>
+  <p>What is your prefered OS</p>
+    <select>
+      <option>IOS</option>
+      <option>WINDOWS</option>
+      <option>Linux</option>
+    </select>
+</form>
+    <!--Forth task in HW 
 Create a page that includes media-->
+<p style="color: red; background-color: black">forth task media </p>
+
+<div style="box-sizing: content-box">
+    <iframe controls style="height: 200px; width: 200px; border: red; border-style: dashed;"
+         src="https://www.youtube.com/embed/Q9NqGd7464U" type="video/mp4">
+
+        </iframe>
+    
+</div>
+
     
 </body>
 </html>
