@@ -3,3 +3,10 @@
     font-size: 20px;
     color: red;
 }
+
+#correctImage{
+    height: 50px; width: 50px;
+}
+#wrongImage{
+    height: 50px; width: 50px;
+}
