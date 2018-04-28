@@ -1,5 +1,53 @@
+html {
+    background-color: lightseagreen;
+}
 
+section div {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 1em;
+    width: 97%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.welcometext {
+    font-size: 3em;
+}
 
 .centered {
     text-align: center;
 }
+
+.responseimage {
+    width: 50%;
+    margin: 1em;
+    border-radius: 15px;
+}
+
+.question {
+    font-size: 1.25em;
+}
+
+form {
+    padding-left: 3em;
+}
+
+
+
+
+
+
+
+/* questions. Don't peek though or it'll ruin the fun!
+1. Who can run faster, hippos or hoomans? A. Hippos
+2. Who can run faster, horses or ostriches? A. Ostriches
+3. True or false, some kangaroos live in trees. A. True
+4. Has there ever been a larger animal than the blue whale? A. No, not that we know of!
+5. how many baby fish does a platy have? A. 24-48 Things are about to get really exciting in my fish tank...
+6. do wild dolphins have names? A. yes, wild dolphins call each other by name
+7. do buffalo operate in a democracy? A. yes. Well... sort of. African buffalo herds display voting behavior, in which individuals register their travel preference by standing up, looking
+in one direction and then lying back down. Only adult females can vote
+8. on what continent is the largest ant colony? A. Europe. The largest ant supercolony on record ranges about 6,000 km, from Italy to the spanish atlantic coast. More info at http://www.pnas.org/content/99/9/6075
+9. True or false, you can smell a skunk from over 2 miles away. A. False, you can smell a skunk from about 1 mile away.
+10. True or false, one way to find a polar bear in a snow storm is to use infrared cameras. A. False, even though polar bears average a body temperature of 37C, they give of almost no detectable heat, so infrared cameras do not work on them. That's some serious fur!
+*/
