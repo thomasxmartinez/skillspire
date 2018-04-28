@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Guess game</title>
+
+  </head>
+  <body>
+
+  <h1>Guess game</h1>
+<ol>
+<li>create a sicretNumber</li>
+<li>ask user for guess</li>
+<li>check if guess is right</li>
+<li>otherwisw check if guess is lower</li>
+
+
+
+
+
+</ol>
+</body>
+<scriptr type=text/javascript src="script.js"></scriprt>
+</html>
+
+
+
+
+
+var number = 15;
+var myNumber = prompt ("can you guess my sicret number?");
+var myNum = Number(myNumber);
+
+if (myNum == number){
+alert("nice job! you got the right number");
+
+}
+else if  (myNum < number){
+alert ("Guess higher please");
+}
+
+else{
+alert("Guess lower please");
+}
