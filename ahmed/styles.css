@@ -1,4 +1,5 @@
 p {
+
     background-color: aquamarine;
 }
 
@@ -9,7 +10,7 @@ p {
 
 #dosomestuff {
     text-decoration-line: line-through; 
-
+text-align: right 
 }
 
 
