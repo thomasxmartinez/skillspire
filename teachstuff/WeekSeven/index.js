@@ -86,7 +86,7 @@ document.write('Rectangle area: ' + rectangleArea(3, 3));
 
 // "return" can be used to hold any data. Here we'll use it to hold a string.
 function returnName() {
-    return 'Farhad';
+    return 'Thomas';
 }
 
 // now we'll alert it
@@ -237,3 +237,107 @@ newContactForm.addEventListener('submit', function () {
     contactsUl.innerHTML += '<li>' + newContact.name + '  |  ' + newContact.number + '  |  ' + newContact.email + '</li>'
 
 })
+
+var houseBtn = document.getElementById('house-btn');
+var gotBtn = document.getElementById('got-btn');
+var wdBtn = document.getElementById('wd-btn');
+var clearBtn = document.getElementById('clear-btn');
+var imgDiv = document.getElementById('img-div');
+
+clearBtn.addEventListener('click', function () {
+    imgDiv.innerHTML = '';
+});
+
+houseBtn.addEventListener('click', function () {
+    imgDiv.innerHTML = '<img src="images/house.jpeg">';
+});
+
+gotBtn.addEventListener('click', function () {
+    imgDiv.innerHTML = '<img src="images/got.png">';
+});
+
+wdBtn.addEventListener('click', function () {
+    imgDiv.innerHTML = '<img src="images/wd.jpg">';
+});
+
+// Create a function that takes an array and returns the
+// zeroth value of the array.
+
+
+
+// Create a function that takes an array and returns the
+// length of the array.
+
+
+
+var newContactForm = document.getElementById('new-contact-form');
+var contactNameInput = document.getElementById('contact-name-input');
+var contactNumberInput = document.getElementById('contact-number-input');
+var contactEmailInput = document.getElementById('contact-email-input');
+var contactTableBody = document.getElementById('contact-table-body');
+
+// Object constructor to create new contact objects on form submission
+function Contact(name, number, email) {
+    this.name = name;
+    this.number = number;
+    this.email = email;
+}
+
+//event listner to perform task when user clicks 'submit' button
+newContactForm.addEventListener('submit', function () {
+
+    event.preventDefault(); // Prevents page from refreshing
+
+    // Create new contact objects
+    var newContact = new Contact(contactNameInput.value, contactNumberInput.value, contactEmailInput.value);
+
+	/*
+		Application Logic:
+		- Create object constructor for contacts (outside of the event listener)
+		- When user clicks submit:
+			- We will create a new contact object
+			- We will push that object into the <ul>
+	*/
+    contactTableBody.innerHTML +=
+        '<tr>' +
+        '<td>' + newContact.name + '</td>' +
+        '<td>' + newContact.number + '</td>' +
+        '<td>' + newContact.email + '</td>' +
+        '</tr>';
+
+    // Empty input boxes.
+    contactNameInput.value = '';
+    contactNumberInput.value = '';
+    contactEmailInput.value = '';
+
+})
+
+
+
+// Create a function that takes a string as an
+// argument and returns the string.
+
+// Create a function called greet that has 2
+// parameters: fname & lname.
+// Return "Hello, " plus the full name.
+
+
+
+
+
+
+
+
+// SOLUTIONS
+function returnStr(str) {
+    return str;
+}
+
+returnStr('some string');
+
+
+function greet(fname, lname) {
+    return 'Hello, ' + fname + ' ' + lname;
+}
+
+greet('Abdi', 'Ali');
