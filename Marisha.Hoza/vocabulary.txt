@@ -44,3 +44,14 @@ Week 4:
     5. js operators = the symbols used to assign values, compare values, perform arithmetic operations, etc.
     6. lexical order = the numerical value assigned to strings is based off of the first letter. This is the mathematical term for alphabetical order. 
     7. Boolean = true and false values
+
+
+Week 5:
+    1. scope = the degree to which an object is accessible by other functions. Eg. an object within a function is local to that function, where as an object outside of all functions has global scope.
+    2. loops = while loops and for loops let you perform an action multiple times, or only in certain cases.
+    3. i = itteration
+    4. API = application programing interface
+    5. DBMS = data base management system
+    6. Front end = “client-side” development, where the focus is on what users see
+    7. Open-source = software that is available for public use, change, and improvement
+
