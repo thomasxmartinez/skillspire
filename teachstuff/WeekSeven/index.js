@@ -240,7 +240,6 @@ newContactForm.addEventListener('submit', function () {
 
 var houseBtn = document.getElementById('house-btn');
 var gotBtn = document.getElementById('got-btn');
-var wdBtn = document.getElementById('wd-btn');
 var clearBtn = document.getElementById('clear-btn');
 var imgDiv = document.getElementById('img-div');
 
@@ -254,10 +253,6 @@ houseBtn.addEventListener('click', function () {
 
 gotBtn.addEventListener('click', function () {
     imgDiv.innerHTML = '<img src="images/got.png">';
-});
-
-wdBtn.addEventListener('click', function () {
-    imgDiv.innerHTML = '<img src="images/wd.jpg">';
 });
 
 // Create a function that takes an array and returns the
