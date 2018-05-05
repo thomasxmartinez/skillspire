@@ -34,13 +34,34 @@ for (var i = 0; i < contacts.length; i++) {
 }*/
 
 
-var contacts = ['#', '##', '###', '####','#####'];
+// var contacts = ['#', '##', '###', '####','#####'];
 
-for (var i = 0; i < contacts.length; i++) {
-    document.write('<p>' + contacts[i] + '</p>');
+// for (var i = 0; i < contacts.length; i++) {
+//     document.write('<p>' + contacts[i] + '</p>');
+// }
+
+// var txt = ""; 
+// for(var i = 0; i < 5; i++) { 
+//     document.write('<p>' + (txt += '#') + '</p>'); 
+// }
+
+//4.28
+
+var array1 = [4,3,7,5,6,2,11];
+
+
+
+
+function indexOfSmallest(a) {
+ var lowest = a[0];
+ 
+ for (var i = 0; i < a.length; i++) {
+ 
+  if (a[i] < lowest) {
+  
+  lowest = a[i];}
+ }
+ return lowest;
 }
 
-var txt = ""; 
-for(var i = 0; i < 5; i++) { 
-    document.write('<p>' + (txt += '#') + '</p>'); 
-}
+indexOfSmallest(array1)
