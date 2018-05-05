@@ -1,0 +1,26 @@
+#photoDiv {
+    "width:200px; 
+    background-color:white; 
+    height:100px; overflow:scroll; overflow-x: scroll;
+    overflow-y: scroll; 
+}
+div {display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 0;
+    border: 1px solid blue;   
+}
+#results{
+    height: 200px;
+    width: 200px;
+}
+img{
+    height: 30px;
+    width: 30px;
+    list-style: inside;
+    border: 1px dashed red;
+    padding: 2px;  
+}
+h2{
+    font-size: 20px;
+    
+}
