@@ -55,3 +55,24 @@ Week 5:
     6. Front end = “client-side” development, where the focus is on what users see
     7. Open-source = software that is available for public use, change, and improvement
 
+
+
+Week 6:
+    1. "this" = specifies the object or variable within that particular scope. changes when called in a different location.
+    2. constructor function = a function that creates a new object
+    3. global = accessable from any location
+    4. local = accessable only within the object
+    5. event listener = "listens" for a specific event to happen on the web page, which calls the action assigned
+    6. higher order function = functions within functions. some examples are the functions you can add within .filter .map and .reduce
+    7. arity = the number of expected arguments in a function. Eg. function (a,b,c){} has an arity of 3.
+
+
+
+Week 7:
+    1. 
+    2. 
+    3. 
+    4. 
+    5. 
+    6. 
+    7. 

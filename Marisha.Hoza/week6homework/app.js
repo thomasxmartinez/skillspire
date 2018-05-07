@@ -1,3 +1,4 @@
+"use strict";
 
 // useful stuff for writing code in to the html document
 let image = '<img class="display-pic" src="./images/';
@@ -122,7 +123,7 @@ for (var i = 0; i < radios.length; i++) {
     // all we need to add to our finished array is the table and tbody 
 
     pictureGrid.innerHTML =
-       "<table><tbody>" + createRows(displayPictures); + "</tbody></table>"
+       "<table><tbody>" + createRows(displayPictures).join("") + "</tbody></table>"
 
   }
 }
