@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Puppy App</title>
+    <title>Puppies and Kittens App</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -10,6 +10,8 @@
 
     <h1 class="center">What pictures would you like to see?</h1>
 
+    <br>
+    
     <form class="center" id="picture-form">
         <input type="radio" name="animal" value="puppies"> Puppies only
         <input type="radio" name="animal" value="kittens"> All kittens
@@ -17,44 +19,10 @@
     </form>
 
     <br>
-    <br>
-
-    <!-- I need a function that will go through my array
+    
+    <div id="picture-grid" >
         
-        while it goes through, it breaks up the data in to groups of 3 
-        (well.. eventually 9 because this is supposed to be a 9x9 grid)
-
-        so basically I need it to loop through everything
-        start with <tr>
-            then <td> elementstuff </td>
-
-            every time it gets to 3 (eventually 9)
-            write an </tr> <tr>
-                and start the count to 3 again
-
-
-        
-    -->
-    <table id="picture-grid">
-        <tbody>
-            <tr id="row1">
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr id="row2">
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr id="row3">
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-
-    </table>
+    </div>
 
     <script type="text/javascript" src="./app.js"></script>
 </body>
