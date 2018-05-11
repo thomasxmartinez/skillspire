@@ -1,0 +1,9 @@
+
+
+.image{
+    height: 30px;
+    width: 30px;
+    list-style: inside;
+    border: 1px dashed red;
+    padding: 2px;  
+}
