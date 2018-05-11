@@ -4,6 +4,7 @@ document.getElementById("assending").addEventListener("click", pullPictures);
 document.getElementById("desending").addEventListener("click", pullPicturesRev);
 document.getElementById("makingGrid").addEventListener("click", pushPictures);
 document.getElementById("thisbtn").addEventListener("click", defThis);
+document.getElementById("funfun").addEventListener("click", fun);
 
 
 function pullPicturesRev(){
@@ -38,6 +39,11 @@ function pushPictures (){
 }
 
 function defThis(){
-	var apple = 'fewfew'
+	var apple = 'This is refering to the object of this inside an object... '
     document.getElementById('thisdef').innerHTML = (apple)
+}
+
+function fun(){
+	var apple = 'so i watched this https://www.youtube.com/watch?v=GhbhD1HR5vk explainig bind and this. I really like the energy of the video it keeps me interested. '
+    document.getElementById('fundef').innerHTML = (apple)
 }
