@@ -42,7 +42,7 @@ Week 4:
     3. js function declaration = a function that is bound to an identifier or name
     4. js modulous operator = %, finds the remainder
     5. js operators = the symbols used to assign values, compare values, perform arithmetic operations, etc.
-    6. lexical order = the numerical value assigned to strings is based off of the first letter. This is the mathematical term for alphabetical order. 
+    6. lexical order = the numerical value assigned to strings is based off of the first letter. This is the mathematical term for alphabetical order.
     7. Boolean = true and false values
 
 
@@ -69,10 +69,20 @@ Week 6:
 
 
 Week 7:
-    1. 
-    2. 
-    3. 
-    4. 
-    5. 
-    6. 
-    7. 
+    1. regex = regular expression
+    2. dev = developer
+    3. pm = project manager
+    4. JSX = a syntax extension for JavaScript to be used with React
+      JSX is not "real" JavaScript, so it needs to go through a compiler so that the browser will know what to do with it.
+    5. foo, bar = common placeholder names when the name is temporary or unimportant. Used to help stress the concept or idea rather than the function itself.
+    6. the virtual DOM = a virtual copy of the actual DOM which allows React to update only changed objects.
+      it does this by diffing.
+    7. diffing = a change updates the entire virtual DOM, which then is compared to a pre-snapshot. Only changed objects get updated in the real DOM.
+
+
+  Week 8:
+    1. conditionals = expressions that are only executed under certain conditions
+    2. method = we can write methods, and js also includes available methods. Essentially a built-in function. "A function built in to an object"
+    3.
+    4.
+    
