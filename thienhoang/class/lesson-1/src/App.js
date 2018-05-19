@@ -1,8 +1,13 @@
+// @flow
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import DisplayAlert from './components/alert.js';
-
+import Welcome from './components/welcome.js';
+import Blaze from './components/blaze.jsx';
+import Puppies from './components/puppies.jsx';
+import Search from './components/search.jsx';
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 const h1 = <h1>Skillspire is the fun!!!!</h1>
 
@@ -18,9 +23,6 @@ const bamboo = {
 
 const element = <h1>look at me do JSX {formatName(bamboo)}</h1>
 
-function Welcome (props) {
-    return <h1>You have a fake name, {props.name}</h1>
-}
 
 class App extends Component {
   constructor() {
@@ -31,19 +33,26 @@ class App extends Component {
   }
   render() {
     return (
+      <BrowserRouter>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Banana MAN</h1>
 
         </header>
-        <p className="App-intro"></p>
+        {/* <p className="App-intro"></p>
         <p>{h1}</p>
         <h6>{element} </h6>
+
         <Welcome name="Thien"/>
-        <Welcome name="Roman"/>
-        <DisplayAlert firstWord="Hello" secondWord=" Skillspire" thirdWord=" class"/>
+        <DisplayAlert firstWord="Hello" secondWord=" Skillspire" thirdWord=" class"/> */}
+        <Switch>
+          <Route exact path="/" component={Blaze}/>
+          <Route exact path="/search" component={Search}/>
+          <Route exact path="/puppies" component={Puppies}/>
+        </Switch>
       </div>
+    </BrowserRouter>
     );
   }
 }
