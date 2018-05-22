@@ -26,13 +26,3 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
-#cat {
-  position: absolute;
-  float: left;
-  width: 100px;
-  height: 100px;
-  background-image: url("./vroomCat.gif");
-  background-repeat: no-repeat;
-  background-size: 100px auto;
-}

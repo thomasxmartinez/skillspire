@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './welcome.js';
-import FollowMe from './FollowMe.js';
-
+import Welcome from './newFile.js'; //add new file newFile.js with a class
 
 class App extends Component {
   render() {
@@ -16,12 +14,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Welcome name="Thomas"/>
-        <div id="cat"></div>
-        <FollowMe/>
+        <Welcome name="Thomas" />
       </div>
-
-
     );
   }
 }
