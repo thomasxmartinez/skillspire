@@ -8,7 +8,6 @@ import Search from './search.jsx'; //this will show you how to make a SPA feel l
 //yall wanna learn yarn?
 
 const FourOhFour = () => <h1>404</h1>;
-
 class App extends Component {
   render() {
     return (
