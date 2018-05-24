@@ -1,0 +1,23 @@
+style {
+  text-align: center;
+}
+
+.style-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 500px;
+}
+
+.style-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: blue(32, 33, 37);
+}
+
+.style-title {
+  font-size: 1.5em;
+}
+
+.style-intro {
+  font-size: large;
+}

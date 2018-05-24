@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './newfile'; 
+import Blaze from './blaze.jsx'; 
+import Puppies from './puppies.jsx';
+import Search from './search.jsx';
+import Sounders from './Sounders.jsx'
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+
+
+const FourohFour = () => <h1>404</h1>
 
 const h1 = <h1>Skillspire is the fun!!!!</h1>
 
@@ -19,13 +26,11 @@ const element = <h1>look at me do JSX {formatName(bamboo)}</h1>
 
 
 
-function Sounders (props) {
-  return <h1>Players List, {props.player}</h1>
-}
 
 class App extends Component {
   render() {
     return (
+      <BrowserRouter>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -33,15 +38,25 @@ class App extends Component {
         </header>
 
         <p>{h1}</p>
+        <blaze name="Ahmed"/>
+        <Puppies/>
+        <Switch>
+         < Route exact path="/" component={Blaze}/>
+         {/* <Route exact path="/search" component={Search}/> */}
+         <Route exact path="/puppies" component={Puppies}/>
+         <Route exact path={FourohFour}/>
+         </Switch>
+
         <h6>{element} </h6>
-        <Welcome name= "Thien"/>
-        <Welcome name= "Roman"/>
-        <Welcome name= "Sabriye"/>
+        <blaze name= "Thien"/>
+        <blaze name= "Roman"/>
+        <blaze name= "Sabriye"/>
 
 
-        <Sounders player="Sabriye"/>
-
-      </div>
+        <Sounders />
+      
+       </div>
+       </BrowserRouter>
     );
   }
 }
