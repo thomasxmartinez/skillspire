@@ -1,5 +1,10 @@
+body {
+  width: 100vw;
+}
+
 .App {
   text-align: center;
+  height: auto;
 }
 
 .App-logo {
@@ -9,7 +14,7 @@
 
 .App-header {
   background-color: #222;
-  height: 50px;
+  height: 150px;
   padding: 20px;
   color: white;
 }
@@ -25,13 +30,4 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
-
-#cat {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-image: url("./vroomCat.gif");
-  background-repeat: no-repeat;
-  background-size: 100px auto;
 }
