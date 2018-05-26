@@ -51,13 +51,14 @@ class FindMe extends React.Component{
       opacity: ${props => props.isVisible ? "1" : "0"};
     `
 
+
     return (
       <this.Wrapper>
-        < p className = "App-intro" >
+        <p className = "App-intro" >
           Use your mouse to find the hidden cat!
         </p>
         <h3>Cat coordinates: X={this.catX} Y={this.catY}</h3>
-        < Cat id = "cat" style={{opacity: seeMe}} onMouseOver={this.foundMe.bind(this)}> </Cat>
+        <Cat id = "cat" style={{opacity: seeMe}} onMouseOver={this.foundMe.bind(this)}> </Cat>
       </this.Wrapper>
     )
   }
