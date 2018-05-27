@@ -1,0 +1,86 @@
+[
+    {
+        "week": 1,
+        "one": "IDD / IDE = Integrated development environment",
+        "two": "DOM = document object model",
+        "three": "HTML = Hyper - text markup language",
+        "four": "CSS = Cascading style sheets",
+        "five": "Terminal / Command line = A text - based interface to the system",
+        "six": "Shell = The part of your operating system that defines how the terminal will behave / look",
+        "seven": "Bash = Bourne Again SHell"
+    },
+	{
+	    "week": 2,
+	    "one": "DRY = Don 't repeat yourself",
+	    "two": "href = Hyper - text reference",
+	    "three": "User story = the scenario that the hypothetical 'user' wants to see on the page - you have to build it out. Can be detailed or vague.",
+	    "four": "Alt text = text that displays when the browser can't load the element or for impared users. This text is also a great way to get found in search results.",
+	    "five": "HTML containers = The commonly used sections that compose your HTML file. Containers help with readability and organization",
+	    "six": "Attributes = the extra information inside an HTML element that povides additional data.",
+	    "seven": "CSS selectors: Element / class / id = the selector determining which bits of the HTML page will be styled. Element seletcs all of that particular type of element, Class (.) selects all elements with the that class attribute, and ID (#) seletcs only the particular element with that ID listed."
+    }, 
+    {
+	    "week": 3,
+	    "one": "NAN = Not a Number",
+	    "two": "SDET = Software Design Engineer in Test",
+	    "three": "SDE = Software Design Engineer",
+	    "four": "Program = A list of computer instructions that tell a computer what to do.",
+	    "five": "(GIT) ACP = add commit push",
+	    "six": "CamelCasing = the standard style of capitalization in JavaScript, where theLaterWordsAreInCaps. because it looks like camelHumps.",
+	    "seven": "Interpolate = insert"
+    },
+    {
+        "week": 4,
+        "one": "Argument = the input, eg the 9 in multiply(9)",
+        "two": "Parameter = variables in a function name that recieve an input",
+        "three": "Function declaration = a function that is bound to an identifier or name",
+        "four": "Modulous operator = % , finds the remainder",
+        "five": "Operators = the symbols used to assign values, compare values, perform arithmetic operations, etc.",
+        "six": "Lexical order = the numerical value assigned to strings is based off of the first letter.This is the mathematical term for alphabetical order.",
+        "seven": "Boolean = true and false values"
+    },
+    {
+        "week": 5.6,
+        "one": "Scope = the degree to which an object is accessible by other functions.Eg.an object within a function is local to that function, where as an object outside of all functions has global scope.",
+        "two": "Loops = while loops and for loops let you perform an action multiple times, or only in certain cases.",
+        "three": "Itteration = i, the count commonly used in for loops",
+        "four": "API = application programing interface",
+        "five": "DBMS = data base management system",
+        "six": "Front end = “client - side” development, where the focus is on what users see",
+        "seven": "Open-source = software that is available for public use, change, and improvement"
+    },
+    {
+        "week": 7,
+        "one": "This = specifies the object or variable within that particular scope.changes when called in a different location.",
+        "two": "Constructor function = a function that creates a new object",
+        "three": "Global = accessable from any location",
+        "four": "Local = accessable only within the object",
+        "five": "Event listener = 'listens' for a specific event to happen on the web page, which calls the action assigned",
+        "six": "Higher order function = functions within functions.some examples are the functions you can add within.filter.map and.reduce",
+        "seven": "Arity = the number of expected arguments in a function. Eg. function(a, b, c) {} has an arity of 3."
+    },
+    {
+        "week": 8,
+        "one": "Regex = regular expression",
+        "two": "Dev = developer",
+        "three": "PM = project manager",
+        "four": "JSX = a syntax extension for JavaScript to be used with React. JSX is not 'real' JavaScript, so it needs to go through a compiler so that the browser will know what to do with it.",
+        "five": "Foo / bar / foobar = common placeholder names when the name is temporary or unimportant. Used to help stress the concept or idea rather than the function itself.",
+        "six": "The virtual DOM = a virtual copy of the actual DOM which allows React to update only changed objects. it does this by diffing.",
+        "seven": "Diffing = a change updates the entire virtual DOM, which then is compared to a pre-snapshot. Only changed objects get updated in the real DOM."
+    },
+    {
+        "week": 9,
+        "one": "Conditionals = expressions that are only executed under certain conditions",
+        "two": "Method = we can write methods, and js also includes available methods. Essentially a built-in function / a function built in to an object",
+        "three": "Recursion = a function that calls itself as part of the function. Works using built-in stacks."
+    },
+    {
+        "week": 10,
+        "one": "",
+        "two": "",
+        "three": "",
+        "four": "",
+        "five": ""
+    }
+]

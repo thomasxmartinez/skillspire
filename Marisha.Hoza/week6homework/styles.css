@@ -24,3 +24,7 @@ body {
     padding: 2%;
     margin: auto;
 }
+
+#column {
+    border: 2px solid black;
+}

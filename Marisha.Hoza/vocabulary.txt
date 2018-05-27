@@ -46,7 +46,7 @@ Week 4:
     7. Boolean = true and false values
 
 
-Week 5:
+Week 5-6:
     1. scope = the degree to which an object is accessible by other functions. Eg. an object within a function is local to that function, where as an object outside of all functions has global scope.
     2. loops = while loops and for loops let you perform an action multiple times, or only in certain cases.
     3. i = itteration
@@ -57,7 +57,7 @@ Week 5:
 
 
 
-Week 6:
+Week 7:
     1. "this" = specifies the object or variable within that particular scope. changes when called in a different location.
     2. constructor function = a function that creates a new object
     3. global = accessable from any location
@@ -68,7 +68,7 @@ Week 6:
 
 
 
-Week 7:
+Week 8:
     1. regex = regular expression
     2. dev = developer
     3. pm = project manager
@@ -80,9 +80,16 @@ Week 7:
     7. diffing = a change updates the entire virtual DOM, which then is compared to a pre-snapshot. Only changed objects get updated in the real DOM.
 
 
-  Week 8:
+Week 9:
     1. conditionals = expressions that are only executed under certain conditions
     2. method = we can write methods, and js also includes available methods. Essentially a built-in function. "A function built in to an object"
-    3.
-    4.
+    3. Recursion = a function that calls itself as part of the function. Works using built-in stacks.
+
+
+Week 10:
+    1. Json file = a file that contains a set of data. Arranged in an array, commonly with multiple key values.
+    2. Preload = loeds data before use to help speed up page loading times
+    3. CDN = content delivery network
+    4. Components = small, reusable pieces of code that return a React element to be rendered to the page.
+    5. Props = inputs to a component or function. Used to pass data down from a parent to a child.
     
