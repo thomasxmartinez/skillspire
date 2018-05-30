@@ -1,6 +1,5 @@
 import React from 'react';
 import Bootstrap from '../css/bootstrap/bootstrap.min.css';
-import * as $ from 'jquery';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'mdbreact';
 
 
