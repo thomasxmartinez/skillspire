@@ -22,45 +22,55 @@ class Form extends React.Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        this.props.submitButton();
-        console.log(this.state)
+        this.props.submitButton(this.state);
+        this.setState({
+        firstName: '',
+        lastName:'',
+        userName:'',
+        email:'',
+        password:''})
     }
 
 
     render(){
         return (
+            <div id='outer'>
+            <p id='ptag' >This returns results you inputed</p>
             <form id='form'>
-                <input
+                <input className='inputBox'
     
                 placeholder='first name' 
                 value={this.state.firstName} 
-                onChange={e => this.setState({ firstName : e.target.value })} />
+                onChange={e => this.setState({ firstName : e.target.value })
+                this.setState({firstName: '',
+                })}
+                 />
                 <br /> 
 
 {/*              <br />  
                 other method to not replicate work */}
-                <input
+                <input className='inputBox'
                 name='lastName'
                 placeholder='last name' 
                 value={this.state.lastName} 
                 onChange={e => this.change(e)} />
                 <br /> 
 
-                <input
+                <input className='inputBox'
                 name='userName'
                 placeholder='user name' 
                 value={this.state.userName} 
                 onChange={e => this.change(e)} />
                 <br /> 
 
-                <input
+                <input className='inputBox'
                 name='email'
                 placeholder='email' 
                 value={this.state.email} 
                 onChange={e => this.change(e)} />
                 <br /> 
 
-                <input
+                <input className='inputBox'
                 name='password'
                 placeholder='password' 
                 value={this.state.password} 
@@ -68,9 +78,14 @@ class Form extends React.Component {
                 <br /> 
 
 
-                <button onClick={e => this.onSubmit(e)}>Submit</button>
+                <button className='inputBox' onClick={e => this.onSubmit(e)}>Submit</button>
+                <button  onClick={e => this.onSubmit(e)}>Advanced</button>
 
             </form>
+            <div>
+                <p></p>
+            </div>
+            </div>
         );
     }
 }
