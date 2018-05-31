@@ -1,0 +1,21 @@
+#landing-main{
+    
+    height: 1000px;
+    border-color: lawngreen;
+    border-style: dotted;
+
+    
+}
+
+#landing-main video {
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    min-width: 100%;
+    min-height: 1000px;
+    width: auto;
+    height: 1000px;
+    background-size: cover;
+    border-color: brown;
+    border-style: dotted
+    }
+    
+

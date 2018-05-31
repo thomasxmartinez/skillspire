@@ -8,7 +8,7 @@ import '../css/portfolio.css';
 class Portfolio extends React.Component {
     render(){
         return(
-            <div>
+            <div className='portfolio-main'>
                 
             </div>
         );
