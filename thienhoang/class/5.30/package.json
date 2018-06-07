@@ -1,0 +1,21 @@
+{
+  "name": "5.30",
+  "version": "1.0.0",
+  "description": "in class demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "classroom",
+    "skillspire",
+    "learning",
+    "node"
+  ],
+  "author": "thien",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

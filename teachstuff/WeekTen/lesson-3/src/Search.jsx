@@ -16,7 +16,7 @@ const Search = () => (
 
 export default Search;
 
-//have an array of show data and want to transform an array to another thing it would be considered a map
+//have an array of documents data and want to transform an array to another thing it would be considered a map
 //it is a basic arrow function that will
 //preload.text is an array, map will call this function once on every element, whatever it returns is a new array
 //we are transforming it into an array of react components
