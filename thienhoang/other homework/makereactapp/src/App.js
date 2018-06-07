@@ -6,9 +6,14 @@ import Form from './components/form';
 
 
 class App extends Component {
+  
+  state = {
+    fields:{}
+  };
 
   submitButton = fields => {
-console.log('app component got : ', fields);
+    this.setState({fields});
+
   }
 
   render() {
@@ -16,7 +21,10 @@ console.log('app component got : ', fields);
       <div>
         <div>
           <Form submitButton={fields => this.submitButton(fields)} />
-        </div>  
+        </div> 
+        <div>
+          <p>{JSON.stringify(this.state.fields, null, 2)} </p>
+        </div> 
         <div>
         <FooterCom imgLinkedin={require('./media/image/linkedin-button.svg')} imgGithub={require('./media/image/github-logo.png')} /> 
         </div>

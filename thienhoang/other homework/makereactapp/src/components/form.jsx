@@ -41,9 +41,8 @@ class Form extends React.Component {
     
                 placeholder='first name' 
                 value={this.state.firstName} 
-                onChange={e => this.setState({ firstName : e.target.value })
-                this.setState({firstName: '',
-                })}
+                onChange={e => this.setState({ firstName : e.target.value })}
+                
                  />
                 <br /> 
 

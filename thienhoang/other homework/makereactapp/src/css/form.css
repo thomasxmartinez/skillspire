@@ -1,8 +1,6 @@
 
 
-#outer{
-  
-}
+
 
 #ptag{
     text-align: center;
@@ -21,7 +19,9 @@
     left: 50%;
    
     margin-top: 100px;
-    background-color: red;
+  
+    border: 2px;
+    border-style: outset;
     height: 100%;
     width: 30%;
 
