@@ -3,6 +3,7 @@ import './css/App.css';
 import Navigation from './components/navbar';
 import FooterCom from './components/footer';
 import About from './components/about';
+import Landing from './components/landing';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 
@@ -12,6 +13,9 @@ class App extends Component {
       <div className="App">
         <Navigation />
           <div>
+          <div>
+            <Landing vidSrc={require('./media/video/landing.MP4')} />
+            </div>
             <div>
               <About />
             </div>
@@ -22,7 +26,7 @@ class App extends Component {
               <Contact />
             </div>
           </div>
-        <FooterCom imgLinkedin={require('./images/linkedin-button.svg')} imgGithub={require('./images/github-logo.png')} /> 
+        <FooterCom imgLinkedin={require('./media/image/linkedin-button.svg')} imgGithub={require('./media/image/github-logo.png')} /> 
       </div>
     );
   }

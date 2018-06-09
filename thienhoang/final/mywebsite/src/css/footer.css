@@ -42,3 +42,9 @@
     height: 40px;
     width: 45px;
 }
+
+.button{
+    background-color: black;
+    padding: 0;
+    border: 0;
+}
