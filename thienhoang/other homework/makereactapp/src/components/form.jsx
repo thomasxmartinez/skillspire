@@ -1,7 +1,11 @@
 import React from 'react';
 import '../css/form.css';
+import styled from "styled-components";
 
-
+const Paragraph = styled.p`
+text-align: center;
+color: red;
+font-size: 80px;`
 
 
 
@@ -35,7 +39,7 @@ class Form extends React.Component {
     render(){
         return (
             <div id='outer'>
-            <p id='ptag' >This returns results you inputed</p>
+            <Paragraph>This returns results you inputed</Paragraph>
             <form id='form'>
                 <input className='inputBox'
     
