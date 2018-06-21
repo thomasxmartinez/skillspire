@@ -4,7 +4,7 @@ import "./glossary.jsx"
 
 class Button extends Component{
 
-function resultAll(){
+ resultAll = () => {
     document.getElementById('results').innerHTML = "hello" 
 }
 
@@ -12,7 +12,7 @@ function resultAll(){
 render(){
     return(
         <div>
-            <button onClick={ resultAll }>press
+            <button onClick={ this.resultAll }>press
 
             </button>
             <p id='results'></p>
