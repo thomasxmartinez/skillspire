@@ -87,7 +87,7 @@ Week 9:
 
 
 Week 10:
-    1. Json file = a file that contains a set of data. Arranged in an array, commonly with multiple key values.
+    1. json file = a file that contains a set of data. Arranged in an array, commonly with multiple key values.
     2. Preload = loeds data before use to help speed up page loading times
     3. CDN = content delivery network
     4. Components = small, reusable pieces of code that return a React element to be rendered to the page.

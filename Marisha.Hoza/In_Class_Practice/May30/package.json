@@ -1,0 +1,19 @@
+{
+  "name": "may30",
+  "version": "1.0.0",
+  "description": "in class",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "test",
+    "class"
+  ],
+  "author": "Marisha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
