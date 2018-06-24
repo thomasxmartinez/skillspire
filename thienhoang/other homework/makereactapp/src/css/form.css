@@ -1,0 +1,42 @@
+
+
+
+
+#ptag{
+    text-align: center;
+    color: red;
+    font-size: 80px;
+
+}
+
+#form {
+    display: block;
+    margin-left: auto;
+    margin-right: 50%;
+    
+    font-size: 40px;
+    align-self: center;
+    left: 50%;
+   
+    margin-top: 100px;
+  
+    border: 2px;
+    border-style: outset;
+    height: 100%;
+    width: 30%;
+
+    
+}
+
+.inputBox{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+   
+   
+}
+    
+

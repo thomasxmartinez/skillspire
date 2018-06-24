@@ -1,0 +1,28 @@
+{
+  "name": "week11",
+  "version": "0.0.1",
+  "description": "teachstuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasxmartinez/skillspire.git"
+  },
+  "keywords": [
+    "skillspire",
+    "node",
+    "express",
+    "json"
+  ],
+  "author": "Thomas Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasxmartinez/skillspire/issues"
+  },
+  "homepage": "https://github.com/thomasxmartinez/skillspire#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

@@ -1,0 +1,127 @@
+1.	Webmaster. The concept of a webmaster is outdated. A webmaster use to keep a site running and update the content. Since sites are more complex, this role has split into specialized tasks, such as a system administrator and operations and content specialists.
+2.	Front-end developer. Front-end developers create the code that produces a web design. They primarily work in HTML, CSS, and JavaScript. Some front-end developers will also create the site designs, graphics, and layouts using tools like Photoshop — incorporating some of the graphic designer role (below).
+3.	Back-end developer. Back-end developers create the server systems and code that send data to a visitor’s browser and save data to the back-end for processing. They work in a server-side language that could include PHP, Ruby, Python, .NET, or any number of other programming languages or a mix of languages.
+4.	Database developer. A database developer is a specialized backend developer. He creates databases, plans how data is stored, and tunes it all for maximum speed. There can be much overlap between the database developer and backend developer. Small teams might have one person do both. Database developers work closely with database administrators, who are in charge of the day-to-day operations of the databases and keeping them running.
+5.	Data scientist. Data scientists are a new role. They analyze all of the data from a website — such as an ecommerce store — and use that data to make technical and business recommendations. This could be, for example, recommending that “sales starting on Tuesday at 10:15 a.m. with a 10 percent discount will perform better and will increase average order value.” This role is highly specialized. It might not make sense for smaller companies. Oftentimes other team members can perform these duties.
+6.	Full-stack developer. A full-stack developer combines front-end and back-end development roles. This person, for example, could create a new design, implement the front-end of the design in HTML and CSS, connect that HTML to the back-end servers, and create a database model to store that data. This may sound like a superstar who could replace every other role. But there are limitations with full-stack developers, in my experience. Since they cover so many disciplines, they aren’t typically as strong as a specialist.
+7.	Graphic designer. A graphic designer is responsible for creating new visuals and mockups of site changes. Graphic designers don’t typically convert those designs into HTML — passing them, instead, to front-end developers. They will work closely with marketing departments (to follow brand guidelines) and with user experience developers (below).
+8.	User-interface designer. User-interface designers are specialized graphic designers who cross into the front-end developer role. They deal more with how a site works (its interface) than how it looks. They decide, for example, whether buttons should be blue or green, have three-pixel rounded corners, and be positioned with at least 10 pixels of margin around them. They aren’t used as much on ecommerce sites but are common on web applications.
+9.	User-experience developer. User experience addresses how the site works for visitors. This often overlaps with graphic and user-interface designers. But user experience developers typically approach it differently. They are more concerned with the workflows and tasks that a visitor will perform and less concerned with the visual design. For example, the add-to-cart and checkout processes would be critical for a user experience developer.
+10.	API (Application Programming Interface) - an interface implemented by an application for other applications to communicate with and use its resources. For example: you use Google Maps API to implement a version of Google Maps on your website.
+11.	Bandwidth - the amount of data that can be transmitted over a connection within a given time. In web hosting, the term bandwidth is often used to describe the amount of data to and from a website within a set period. For example: 500gb/month - if the total traffic exceeds the limit (500gb) for that particular month, the web hosting company may shut down public access to your website until the next month.
+12.	Cache - data stored on your hard drive of recently used information for easy and fast access. For example: web browsers use cache to store pages, images, and URLs of recently visited websites - effectively reducing website load times. Now, instead of downloading pages and images each time you visit a website, your browser has access to a cache.
+13.	CMS (Content Management System) - software that is used to manage content on a website. It allows you to easily write, edit, and publish content from a central interface.
+14.	Cookies - data saved by your web browser that identifies you or your preferences. Cookies store your unique identification, like information saying you’re logged into your Facebook account.
+15.	DNS (Domain Name Service) - websites are located by their IP address rather than domain names - which they are commonly remembered as. DNS helps to translate domain names to IP addresses when requesting a website.
+16.	Domain Name - a unique name that identifies a website. Each website has a domain name that is used to access the website. For example: www.designbrooklyn.com.
+Note: Domain names actually translates to IP addresses by DNS when a website is requested.
+17.	E-Commerce (Electronic Commerce) - a rapidly growing industry of business transactions conducted over the Internet with potential to incorporate other technologies such as mobile devices, social media platforms and automated data collection systems.
+18.	Error 404 - an error message indicating the server cannot find what was requested by the user. For example: landing on a page that does not exist on a website.
+19.	FTP (File Transfer Protocol) - a common method of transferring files from one computer to another over the Internet.
+20.	HTTPS - HTTP layered with Transport Layer Security (TLS) or Secure Sockets Layer (SSL) protocols. With HTTPS any data that you send from your computer will be encrypted and will only be decrypted once it has safely arrived at your intended location. For more information take a look at our blog post on online browsing security.
+21.	IP Address (commonly referred to as an IP) - is an address that identifies a computer on the Internet. IP addresses consist of four groups of numbers separated by three dots. For example: 216.22.48.225
+22.	ISP (Internet Service Provider) - a company that provides access to the Internet and other Internet services.
+23.	LAN (Local Area Network) - a computer network where a group of computers share a common connection.
+24.	Paid Inclusion - paying a search engine a fee to include your website in their search results.
+25.	Pay Per Click Advertising (also known as Cost Per Click) - advertisers pay websites for ad placement based on clicks. For example: Facebook Ads - advertisers pay Facebook based on how many clicks the ad receives.
+26.	Phishing - attempting to steal one’s personal information through impersonating legitimate establishments. Commonly in the form of emails that are masked to look like they are from a trustworthy source - asking for username, passwords, or credit card information.
+27.	Pixel (px) - Picture Element - the smallest unit of a point on a display device. Commonly used to measure the dimensions of a graphic image. For example: 800px by 600px.
+28.	SEM - Search Engine Marketing - includes any type of marketing and advertising for best search engine visibility. This includes SEO, and paid methods like paid inclusion, and pay per click advertising.
+29.	SEO (Search Engine Optimization) - the process of modifying and creating content on a website for best visibility on search engines. For more information take a look at our blog post on what is search engine optimization.
+30.	UI (User Interface) - a means to control the interaction between user and computer with a textual/graphical/auditory interface.
+31.	UX (User Experience or User Experience Design) - an element of design that includes and addresses all aspects of a user's interaction with a product or service.
+32.	Wireframe - a web design tool used to show visual representation of proposed functions, structure, and content of a website.
+33.	WYSIWYG (What You See Is What You Get) - software that accurately displays content during editing as it would look as a final product. For example: Microsoft Word and Dreamweaver.
+34.	If there are other tech terms you would like to see on our list, please let us know. We would love to help clarify any terms and add them to the list.
+35.	Attachment
+An attachment is a document sent with an email message. Many types of files can be sent this way (e.g. Word documents, PDFs, Excel files, JPEGs). Be wary of attaching large files because these can take a lot of time for the recipient to download. If you have a large file, it is considered good practice to compress the file using software such as Winzip before attaching it.
+36.	Back-end
+Back-end refers to the part of an application that performs an essential task not apparent to the user.
+37.	Backward compatible
+If software is backward compatible, it is compatible with earlier (superseded) versions of the same software. For example, the Microsoft word-processing program Word 2010 can read files created in the 2003 version of the same program, so it is backward compatible.
+38.	BaBit
+A bit (short for binary digit) is the smallest unit of measurement in computing. 8 bits make up 1 byte.
+39.	Boolean operators
+Most search engines (e.g. Google) allow you to limit your search or make it more specific by using words such as "and", "or" and "not". These words are known as boolean operators because of their origin as terms in logic.
+40.	Broadband
+Broadband is a type of communications technology whereby a single wire can carry more than one type of signal at once; for example, audio and video. Cable TV is one technology that uses broadband data transmission.
+41.	Browser
+A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
+42.	Cache
+When you download (read) a web page, the data is "cached," meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the "refresh" button on your browser.
+43.	CAD
+Computer-aided design (CAD) is a type of software that allows users to create 2D and 3D design and modelling. CAD is used by architects, engineers, artists and other professionals to create precise technical drawings.
+44.	Cloud computing
+Cloud computing refers to the storing and accessing of data and programs over the Internet instead of on another type of hard drive. Examples of Cloud services include iCloud, Google Cloud and Dropbox.
+45.	Compression
+Compression is the reduction of the size of a file. Compressed files take up less memory and can be downloaded or sent over the Internet more quickly.
+46.	Content
+Content refers to a website's text and information, as opposed to its design and structure.
+47.	Cookie
+A piece of code or data created by a web server and stored on a user's computer. It is used to keep track of the user's usage patterns and preferences.
+48.	Domain
+A domain is a set of computers on a network that are managed as a unit.
+49.	Encryption
+Encryption is the process of converting electronic data to an unrecognisable or encrypted form, one that cannot be easily understood by unauthorised parties.
+50.	Ethernet
+Ethernet is the most common way of connecting computers on a network with a wired connection. It is a type of local area network (LAN) technology, providing a simple interface for connecting multiple devices.
+51.	Firewall
+A firewall is a barrier that acts as a security system to protect trusted computer systems and networks from outside connections and untrusted networks, such as the Internet.
+52.	FTP
+File transfer protocol (FTP) is a common method of transferring files via the internet from one host to another host.
+53.	GIF
+Graphics interchange format (GIF) is a graphics file format. Because GIF files are compressed, they can be quickly and easily transmitted over a network. GIF is one of the main graphics formats on the Internet.
+54.	Home page
+The page that an Internet browser first opens up to. It is usually the starting point of an organisation's or individual's website.
+55.	HTML
+Hyper-text markup language (HTML) is a set of symbols inserted into files intended for display on the world wide web. The symbols tell web browsers how to display words and images - e.g. which colour, font and type size to use - and they direct it to link to other pages on the world wide web via hyperlinks.
+56.	Internet
+A set of interconnected networks that allow computers in different locations to exchange information. The Internet includes services such as the world wide web, electronic mail, file transfer protocol (FTP), chat and remote access to networks and computers.
+57.	ISP
+An internet service provider (ISP) is a company that provides access to the Internet. In Australia, widely used ISPs include Bigpond, iinet and Dodo.
+58.	Java
+Java is a programming language that is commonly used in the development of client-server web applications.
+59.	JPEG
+JPEG stands for Joint Photographic Experts Group, which was the committee that created the file format known as JPEG. The format is commonlyl used for photos displayed on the world wide web.
+60.	LAN
+A local area network (LAN) is a system that connects computers and other devices that share a common communications line and wireless link, generally within a limited geographical area such as a home or office building.
+61.	Megabyte
+A measure of computer processor storage and real and virtual memory. A megabyte (Mb) is 2 to the 20th power bytes, or 1,048,576 bytes in decimal notation.
+62.	Megahertz
+Megahertz is the unit used to measure the speed of a computer's processor (e.g. 2.8Ghz)
+63.	Plug-in
+A software plug-in is a component that adds to a software program's functionality.
+64.	POP
+A Post office protocol (POP) is an Internet protocol used by your Internet service provider (ISP) to handle email. A POP account is an email account.
+65.	Protocol
+A protocol is a standard or set of rules that computers and other devices use when communicating with one another.
+66.	RAM
+Random access memory (RAM) is usually referred to as a computer's "memory" - it stores information used by programs. Generally, the larger your computer's RAM, the more programs it can run at once without slowing down.
+67.	Read-only
+A read-only file cannot be edited, modified or deleted.
+68.	Resolution
+Resolution refers to the number of distinct pixels that make up the display on a computer monitor. It is denoted in DPI (dots per inch). The higher the resolution, the finer and smoother the images appear when displayed at a given size.
+69.	ROM
+ROM stands for read-only memory. It is the part of a computer's memory that cannot be changed by a user. The contents of ROM remain even when the computer is turned off.
+70.	SAAS
+SAAS stands for software as a service. It is a software distribution model whereby software applications are centrally hosted and licensed on a subscription basis.
+71.	SSL
+SSL, or secure sockets layer, is a protocol that allows Internet users to send encrypted messages across the Internet. It is generally used when transmitting confidential information (e.g. personal data or credit card details). A web address that begins with "https" indicates that an SSL connection is in use.
+72.	SEO
+SEO, or search engine optimisation, is the practice of making adjustments to certain aspects of a website in an effort to improve its ranking on search engines.
+73.	Server
+A server is a computer that handles requests for data, email, file transfers, and other network services from other computers.
+74.	URL
+A URL (unique resource locator) or web address is the string of characters you type into a browser to access a particular website or other resource on the Internet. (eg. http://www.ourcommunity.com.au )
+75.	Virus
+A virus is a piece of programming code inserted into other programming to cause damage. Viruses can be sent in many forms but are often transmitted via email messages that, when opened, may erase data or cause damage to your hard disk. Some viruses are able to enter your email system and send themselves to other people in your list of contacts.
+76.	WEP
+Wired equivalent privacy (WEP) is a security protocol used in wi-fi networks. It is designed to provide a wireless local area network (LAN) with a level of security similar to that of a regular wired LAN. WEP-secured networks are usually protected by passwords. (See also WAP.)
+77.	Wi-Fi
+Wi-Fi is a technology that allows computers and other devices to communicate via a wireless signal. Essentially, it means you can browse the internet without tripping over phone cords.
+78.	WPA
+Wi-Fi protected access (WPA) is a security protocol used in wi-fi networks. It is an improvement on WEP because it offers greater protection through more sophisticated data encryption.
+79.	Zip
+To zip files is to archive and compress them into one file of smaller size using a program such as WinZip. It's a handy way to make files smaller before sending them via email.
+
+

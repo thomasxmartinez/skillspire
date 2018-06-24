@@ -1,0 +1,50 @@
+.footer-main {
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background-color: black;
+    width: 100%;
+}
+
+.footer-table{
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    bottom:0px;
+    right:50%;
+    left:50%;
+    height: 50px;
+    width: 50px;
+}
+
+.footer-column{
+ 
+  
+ 
+}
+
+.footer-data{
+  
+   
+    
+    
+}
+
+.footer-copyright{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.listImage{
+    height: 40px;
+    width: 45px;
+}
+
+.button{
+    background-color: black;
+    padding: 0;
+    border: 0;
+}

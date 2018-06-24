@@ -1,0 +1,22 @@
+version: '3'
+services:
+  prisma:
+    image: prismagraphql/prisma:1.8
+    restart: always
+    ports:
+    - "4466:4466"
+    environment:
+      PRISMA_CONFIG: |
+        port: 4466
+        # uncomment the next line and provide the env var PRISMA_MANAGEMENT_API_SECRET=my-secret to activate cluster security
+        managementApiSecret: PRISMA_MANAGEMENT_API_SECRET=my-secret
+        databases:
+          default:
+            connector: postgres
+            host: postgres://cqtofxwe:cMnf5n1tT8IT-QmLmsQrPzUXLxwvf5S4@elmer.db.elephantsql.com:5432/cqtofxwe
+            port: 3000
+            user: 	cqtofxwe
+            password: cMnf5n1tT8IT-QmLmsQrPzUXLxwvf5S4
+            migrations: true
+volumes:
+  postgres:
