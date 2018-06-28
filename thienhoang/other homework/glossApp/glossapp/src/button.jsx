@@ -5,18 +5,18 @@ import "./button.css"
 
 
 class Button extends Component{
-
-
-
-
+   
+    
 
  resultAll = () => {
+    var keyResults = [];
+    var defResults = [];
+    for(var key = jsonGloss['firstLetter'], var def = jsonGloss['Def'], var i = 0; i < jsonGloss.length; i++ ){
+        
+    }
 
-    
-    
-
-    document.getElementById('resultsletter').innerHTML = JSON.stringify(jsonGloss, ['firstLetter'])
-    document.getElementById('resultsdef').innerHTML = JSON.stringify(jsonGloss, ['Def'])
+    // let first = JSON.stringify(jsonGloss, ['firstLetter'])
+    // document.getElementById('resultsdef').innerHTML = JSON.stringify(jsonGloss, ['Def'])
 }
 
 
@@ -28,7 +28,7 @@ render(){
             </button>
             <ul><li>
                 <tr>
-                    <td><p id='resultsletter'></p>
+                    <td><p>{first}</p>
                     </td>
                     <td><p id='resultsdef'></p>
                     </td>
