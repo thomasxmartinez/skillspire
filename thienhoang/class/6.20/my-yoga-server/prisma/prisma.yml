@@ -1,0 +1,5 @@
+endpoint: https://us1.prisma.sh/thien-hoang-c6dd1a/testPrisma/stagePrisma
+datamodel: datamodel.graphql
+hooks:
+  post-deploy:
+    - graphql get-schema -p prisma
