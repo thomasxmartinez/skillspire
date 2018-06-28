@@ -1,6 +1,13 @@
 import React, { Component  } from "react";
 import "./glossary.jsx"
 import jsonGloss from "./glossary.jsx";
+import styled from 'styled-components';
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
+
 
 
 class Button extends Component{
