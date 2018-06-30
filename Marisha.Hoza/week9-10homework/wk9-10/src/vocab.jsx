@@ -21,9 +21,6 @@ const Def = styled.li`
 `;
 
 
-
-
-
 const AllWords = () => (
     <Wrapper>
         <List>

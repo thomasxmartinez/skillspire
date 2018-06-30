@@ -19,6 +19,8 @@ const Def = styled.li`
 `;
 
 
+
+
 let allDefinitions = preload.map(file => file.definition);
 
 let wholeFile = preload.map(file => (file.definition.charAt(0).toUpperCase()));
@@ -32,7 +34,7 @@ function sortMe(letter) {
         }
     }
     return justLetter
-}
+} 
 
 
 
