@@ -1,0 +1,12 @@
+endpoint: https://us1.prisma.sh/marisha-20738f/hackernews-node/dev
+datamodel: datamodel.graphql
+
+# The service name, this will be part of the endpoint of the Prisma API
+service: hackernews-node
+
+# The deployment stage, this will also be part of the API endpoint
+stage: dev
+
+
+# You can only access the API when providing JWTs that are signed with this secret
+secret: mysecret123
