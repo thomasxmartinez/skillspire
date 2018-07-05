@@ -1,7 +1,6 @@
 import React, { Component  } from "react";
 import "./glossary.jsx"
 import jsonGloss from "./glossary.jsx";
-<<<<<<< HEAD
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
@@ -9,42 +8,40 @@ const Wrapper = styled.section`
   background: papayawhip;
 `;
 
-=======
-import "./button.css"
->>>>>>> 259a48b3870f5a3f7b20fa9c36b410021ad51300
+
+
+ var keyResults = [];
+    var defResults = [];
 
 
 class Button extends Component{
+  
    
-    
 
  resultAll = () => {
-    var keyResults = [];
-    var defResults = [];
-    for(var key = jsonGloss['firstLetter'], var def = jsonGloss['Def'], var i = 0; i < jsonGloss.length; i++ ){
+    
+    for( var i = 0; i < jsonGloss.length; i++ ){
+        defResults.push('<li>' + jsonGloss[i].Def + '</li>')
         
     }
+   
 
-    // let first = JSON.stringify(jsonGloss, ['firstLetter'])
-    // document.getElementById('resultsdef').innerHTML = JSON.stringify(jsonGloss, ['Def'])
+   return document.getElementById('resultsdef').innerHTML='<td>' + defResults + '</td>'
 }
 
 
 render(){
     return(
         <div>
-            <button onClick={ this.resultAll }>press
+            <button onClick={ this.resultAll }>press for vocab words & def
 
             </button>
-            <ul><li>
-                <tr>
-                    <td><p>{first}</p>
-                    </td>
-                    <td><p id='resultsdef'></p>
-                    </td>
-                </tr>     
-                </li>
-            </ul>
+            <Wrapper>
+                <ol id='resultsdef'>
+                    
+                </ol>
+            </Wrapper>
+            
             
         </div>
 
