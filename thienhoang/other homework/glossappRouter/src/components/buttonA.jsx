@@ -7,10 +7,6 @@ const Wrapper = styled.section`
   padding: 4em;
   background: papayawhip;
 `;
-
-
-
- 
     var firstLetterResults = [];
 
 
@@ -34,6 +30,7 @@ class ButtonA extends Component{
 render(){
     return(
         <div>
+           
             <button onClick={ this.resultAll }>A
 
             </button>
