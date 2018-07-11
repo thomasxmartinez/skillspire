@@ -45,7 +45,7 @@ textarea:focus {
 }
 
 #wrapper {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -129,17 +129,18 @@ textarea:focus {
 }
 
 #home {
-    background-image: url('./src/supertheme.jpg');
+    background-image: url('./src/turkeyleg.png');
     
 }
 
 #about {
-    background-image: url('http://lorempixel.com/1200/600/city');
-    background-color: darkmagenta;
+    background-image: url('./src/supertheme.jpg');
+    
 }
 
 #services {
-    background-color: darkblue;
+    background-image: url('./src/matrix.gif');
+    
 }
 
 #portfolio {
@@ -158,8 +159,8 @@ textarea:focus {
 }
 
 #contact {
-    background-image: url('http://lorempixel.com/1200/600/people');
-    background-color: white;
+    background-image: url('./src/giphy.gif');
+    
 }
 
 footer {
@@ -173,7 +174,7 @@ footer {
     background-attachment: fixed;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:) {
     #menu .navicon {
         display: block;
     }
