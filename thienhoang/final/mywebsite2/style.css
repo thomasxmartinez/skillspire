@@ -1,0 +1,191 @@
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat';
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+label {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 60%;
+    border: 1px solid #777;
+    font-size: 1em;
+}
+
+input:focus,
+textarea:focus {
+    border-color: red;
+}
+
+#wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border: 1px solid black;
+    background-color: #ddd;
+}
+
+#menu .navicon {
+    display: none;
+    font-size: 2em;
+    float: right;
+    margin-right: 15px;
+}
+
+#menu nav {
+    float: right;
+}
+
+#menu nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#menu nav li {
+    float: left;
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+#menu nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #222;
+    color: #ddd;
+}
+
+#menu nav li a:hover {
+    background-color: #000;
+    color: white;
+}
+
+#menu nav li:last-child {
+    margin-right: 10px;
+}
+
+.section {
+    min-height: 100vh;
+    overflow: hidden;
+    padding-top: 60px;
+    /*position: relative;*/
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section h2 {
+    font-family: 'Indie Flower', cursive;
+    background-color: white;
+    padding: 5px;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section article {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+#home {
+    background-image: url('./src/turkeyleg.png');
+    
+}
+
+#about {
+    background-image: url('./src/supertheme.jpg');
+    
+}
+
+#services {
+    background-image: url('./src/matrix.gif');
+    
+}
+
+#portfolio {
+    background-color: darkgray;
+}
+
+#portfolio ul li {
+    display: inline-block;
+    width: 48%;
+    min-height: 200px;
+}
+
+#portfolio ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+#contact {
+    background-image: url('./src/giphy.gif');
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+.fixPoint {
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:) {
+    #menu .navicon {
+        display: block;
+    }
+    #menu nav {
+        display: none;
+        width: 100%;
+    }
+    #menu nav ul li {
+        width: 100%;
+    }
+    #portfolio ul li {
+        width: 100%;
+    }
+}
