@@ -129,8 +129,8 @@ textarea:focus {
 }
 
 #home {
-    background-image: url('http://lorempixel.com/1200/600/sports');
-    background-color: chartreuse;
+    background-image: url('./src/supertheme.jpg');
+    
 }
 
 #about {
